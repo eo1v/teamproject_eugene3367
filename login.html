@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kouve</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/header.css">
+
+<style>
+    .page { clear:both; width: 100%;  }
+    .page:after { display:block; clear:both; }
+    .page_wrap { width: 100%;  }
+
+    .frm { padding: 24px; width: 580px; margin:50px auto; }
+    .frm th a {color: black;}
+    .frm_tb { display:table; margin:40px auto;  }
+    .frm_tb tr { display:table-row; }
+    .frm_tb td, .frm_tb th { display:table-cell; }
+    .frm_tb th { width:200px; height: 48px; }
+    .frm_tb td { width:300px; height: 48px; }
+    .frm_tb label:before { content:"*"; }
+
+    .in_btn { width: 300px; margin: 0 auto; }
+</style>
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="hd">
+            <div class="hd_wrap">
+                <a href="index.html" class="logo"><img src="./img/logo.svg" alt="logo"></a>
+                <nav class="tnb">
+                    <ul>
+                        <li><a href="best.html">best</a></li>
+                        <li><a href="nail&pedi.html">nail&pedi</a></li>
+                        <li><a href="nail polish.html">nail polish</a></li>
+                        <li><a href="event.html">event</a></li>
+                        <li><a href="">|</a></li>
+                        <li><a href=""><img src="./img/search.svg" alt="검색" ></a></li>
+                        <li><a href="bad.html"><img src="./img/bag.svg" alt="장바구니" width="23px" height="20px"></a></li>
+                        <li><a href="login.html"><img src="./img/account.svg" alt="로그인"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    <hr/>
+        <section class="page">
+            <div class="page_wrap">
+                <div class="form_fr">
+                    <form name="frm1" action="" method="post" id="loginForm" class="frm">
+                        <table class="frm_tb">
+                            <thead>
+                                <tr>
+                                    <th><a href="login.html">회원</a></th>
+                                    <th><a href="">비회원</a></th> 
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th><label for="id">ID</label></th>
+                                    <td>
+                                        <input type="text" id="id" name="id" class="in_dt" required autofocus>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th><label for="id">PW</label></th>
+                                    <td>
+                                        <input type="password" id="pw" name="pw" class="in_dt" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <button type="submit" class="in_btn">sign in</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <hr/>
+    <footer>
+        <nav>
+            <ul>
+                <li>
+                    <h3>BRAND</h3>
+                    <h4><a href="">어바웃</a></h4>
+                    <h4>Shop in: South Korea</h4>
+                </li>
+                <li>
+                    <h3>SERVICES</h3>
+                    <h4><a href="">공지사항</a></h4>
+                    <h4><a href="">FAQ</a></h4>
+                    <h4><a href="">Q&A</a></h4>
+                    <h4><a href="">이용약관</a></h4>
+                    <h4><a href="">개인정보처리방침</a></h4>
+                </li>
+                <li>
+                    <h3>FOLLOW US</h3>
+                    <h4><a href="https://www.instagram.com/kouve.official/" target="_blank"><span><img src="./img/instagram.svg"></span>인스타그램</a></h4>
+                </li>
+            </ul></nav><div class="footer_logo"><img src="./img/logo.svg" width="100%"></div>
+        <div class="company font_Noto">
+            <span class="companyinfo">(주)웨이비블룸 | 대표자명: 이상빈 | 사업자번호: 274-86-02127 | 통신판매신고번호: 제2022-서울강남-00928호 | 이메일: kouve@wavybloom.com | 개인정보보호책임자: 고기범 | 주소: 서울특별시 강남구 논현로 644, 3층, 301호(논현동, 대용빌딩) | 대표번호: 1600-3986 | 입금계좌: 중소기업은행 065-154035-01-028</span>
+            <span class="copyright">Copyright © kouve All Rights Reserved</span>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
